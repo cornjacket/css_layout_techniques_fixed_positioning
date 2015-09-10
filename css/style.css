@@ -25,6 +25,7 @@ body {
 .secondary-content { background-color: #bfe3d0; }
 .main-footer       { background-color: #b7c0c7; }
 
+
 /* Header, Banner and Footer Layout
 ================================ */
 
@@ -70,6 +71,13 @@ body {
 	margin-bottom: 10px;
 	border: solid 1px;
 	padding: 5px;
+}
+
+.icon {
+	background-color: #39add1;
+	margin-top: 34px;
+	height: 180px;
+	border-radius: 5px;
 }
 
 /* Float Clearfix
