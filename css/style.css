@@ -78,6 +78,25 @@ body {
 	margin-top: 34px;
 	height: 180px;
 	border-radius: 5px;
+	position: relative; /* any child of this element will be relative to this */
+}
+
+.icon::after {
+	content: "";
+	display: block;
+	width: 150px;
+	height: 90px;
+	background: url('../img/icon.png') no-repeat;
+	background-size: 100%;
+	/* if parent is relative and all the following are
+	   done, then the icron.png will be perfectly
+	   centered. */
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
 }
 
 /* Float Clearfix
